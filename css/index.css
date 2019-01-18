@@ -181,10 +181,10 @@ footer {
   justify-content: center;
   align-items: center;
 }
-.home .top-content {
+.top-content {
   background-color: #F6F6F6;
 }
-.home .top-content h1 {
+.top-content h1 {
   display: flex;
   justify-content: center;
   font-size: 4em;
