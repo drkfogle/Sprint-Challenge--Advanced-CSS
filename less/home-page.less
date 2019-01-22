@@ -1,7 +1,14 @@
 // Home Content
 
+.top-content{
+  h1{
+    display: flex;
+    justify-content: center;
+    font-size: 4em;
+  }
+  background-color: @wild-sand;
+  }
 .home {
-
   .intro {
 
     h2 {
@@ -58,6 +65,17 @@
       }
 
       .btn {
+        button{
+          background-color: rgba(0, 46, 83, 0.863);
+          color: white;
+          .btnstuff(17px, 7px 19px);
+          border-radius: 5px;
+          &:hover{
+            background-color: white;
+            color: rgba(0, 46, 83, 0.863);
+          }
+        }
+      }
       }
     }
 
@@ -71,5 +89,30 @@
         border-radius: 10px;
       }
     }
+    @media @mobile{
+      .sky{
+        .none(none);
+      }
+      .launch{
+        .none(none);
+      }
+      .space-images .blast{
+        width: 100%;
+      }
+      .walk{
+        flex-direction: column-reverse;
+        .walk-text{
+          width: 100%;
+          .btn button{
+            padding: 25px 9em;
+          }
+        }
+        .walk-img{
+          width:100%;
+        }
+
+      }
+    }
+      
   }
-}// home
+// home
